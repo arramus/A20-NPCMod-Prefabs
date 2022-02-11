@@ -1,0 +1,84 @@
+-------------------------
+A20 NPCMod Prefabs (POIs)
+-------------------------
+
+===========================================
+
+CONTENTS:
+- ABOUT NPCMOD
+- PREFAB INSTALLATION
+- CURRENT LIST OF PREFABS
+- PREFAB CONFIGURATION FOR PREFAB CREATORS
+
+===========================================
+
+- ABOUT NPCMOD:
+
+The NPCMod provides players with a variety of non player characters that add immersion to 7D2D game play.
+These characters range from ally (hireable assistants) to hostile (attempt to eliminate you).
+These characters can spawn in each biome depending on depending on how they have been configured.
+In addition, they can also be added to Prefabs/POIs and spawn, as with regular default zombie characters.
+
+In order to use the NPCMod, the minimum requirement is to install:
+
+Score (0-SCore)
+NPCCore (0-XNPCCore)
+
+https://community.7daystodie.com/topic/26974-npcmod-a-community-project/
+
+In addition to the core files, players will typically install the NPCMod Addon Character and Feature Packs to enhance the experience.
+
+In some cases, these packs will contain totally new characters, and be given the Prefix of 1-'Name' such as 1-RaiderzPack by Darkstardragon.
+However, some of these packs are extensions of existing assets, and will be given the Prefix of 2-'Name' such as 2-XNPCCore-TraderBaker.
+This pack adds a number of features, such as a new custom Trader Baker, a unique Trader Baker Prefab, as well as custom quests and items.
+These have all been bundled into their own modlet to support all of the features. The Trader Baker is an asset already contained with the 0-XNPCCore.
+2-XNPCCore-TraderBaker is an extension of the assets contained within 0-XNPCCore.
+
+- PREFAB INSTALLATION:
+
+These Prefabs contain only Prefabs/POIs/Parts/Tiles associated to structures and can be installed in a variety of ways.
+Here are two of the most appropriate installation methods:
+
+1. Add the contents of the Prefab folder(s) directly to the 0-XNPCCore Prefabs folder.
+The 0-XNPCCore's Prefabs folder is typically found here:
+"...\SteamLibrary\steamapps\common\7 Days To Die\Mods\0-XNPCCore\Prefabs"
+
+2. Add the contents of the Prefab folder(s) directly to your 7D2D Prefabs folder.
+The game's Prefabs folder is typically found here:
+"...\SteamLibrary\steamapps\common\7 Days To Die\Data\Prefabs"
+
+For convenience, it is easier to manage NPCMod specific Prefabs within the 0-XNPCCore\Prefabs folder.
+For performance, it has been suggested that adding directly to the game's Prefabs folder increases rendering speed; especially on lower end machines.
+
+- CURRENT LIST OF PREFABS:
+
+(An image of each Prefab can be viewed in the jpg file)
+
+NPCMod_Bandit_Settlement_01 - Tier 5 Fetch/Clear (Wilderness Bandit Settlement - 100 x 100): Created by arramus with kind use of MPLogue's 'Dirigible' Prefab.
+NPCMod_Bandit_Flying_Wallendas_by_MPLogue - Tier 4 Fetch (Wilderness Bandit Defense - 142 x 141): Created by MPLogue with NPCMod conversion by arramus. 
+
+
+- PREFAB CONFIGURATION FOR PREFAB CREATORS:
+
+For the purpose of supporting NPCMod Prefabs, the 0-XNPCCore contains a variety of custom made preconfigured groups.
+These were kindly created by khzmuzik and conform to regular game nomenclature and format.
+These groups are specifically assigned for NPCMod characters and will appear in the UI in the Editor when using 'K' on the selected Sleeper Volume.
+This will allow Prefab creators to assign NPCMod types to Sleeper Volumes in their Prefabs/POIs.
+
+Considerations:-
+
+a) The NPCMod characters support enhanced AI and will be more aware of their surroundings.
+This can cause them to roam more than regular default characters.
+
+b) Setting the Sleeper Volume to Passive puts the NPCMod characters into Turret Guard state. This means they will typically remain stationery.
+The NPCMod characters can use all 6 Sleeper positions (not including crawler) and this can used to good effect.
+Examples include, laying on stomach while in a bunker, laying on side while next to a defensive barrier such as a sandbag, and sitting at the top of a staircase.
+
+c) Entities in Passive Sleeper Volumes will not appear as 'dots' on the UI for 'Clear' quests. This allows them to be used as hidden 'turrets'.
+
+d) While the 0-XNPCCore supports a variety of custom Sleeper groups, it is necessary for Addon creators to assign their characters to these groups.
+This is done in the entitygroups.xml with each Addon's Config folder.
+If these do not exist in the specific Addon, which may best suit your Prefab, it will be necessary to contact the Addon creator or provide your own.
+
+e) Where no 1-'Name' Addon Pack exists for a Prefab, the Sleeper Volumes can fall back on default characters within the 0-XNPCCore.
+The range of characters will be severely limited, but it will allow the Prefab to remain functional.
