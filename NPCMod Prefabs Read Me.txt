@@ -61,7 +61,7 @@ NPCMod_Bandit_Flying_Wallendas_by_MPLogue - Tier 4 Fetch (Wilderness Bandit Defe
 - PREFAB CONFIGURATION FOR PREFAB CREATORS:
 
 For the purpose of supporting NPCMod Prefabs, the 0-XNPCCore contains a variety of custom made preconfigured groups.
-These were kindly created by khzmuzik and conform to regular game nomenclature and format.
+These were kindly created by khzmusik and conform to regular game nomenclature and format.
 These groups are specifically assigned for NPCMod characters and will appear in the UI in the Editor when using 'K' on the selected Sleeper Volume.
 This will allow Prefab creators to assign NPCMod types to Sleeper Volumes in their Prefabs/POIs.
 
