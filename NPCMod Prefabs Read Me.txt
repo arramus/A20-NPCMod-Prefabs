@@ -55,8 +55,9 @@ For performance, it has been suggested that adding directly to the game's Prefab
 (An image of each Prefab can be viewed in the jpg file)
 
 NPCMod_Bandit_Settlement_01 - Tier 5 Fetch/Clear (Wilderness Bandit Settlement - 100 x 100): Created by arramus with kind use of MPLogue's 'Dirigible' Prefab.
-NPCMod_Bandit_Flying_Wallendas_by_MPLogue - Tier 4 Fetch (Wilderness Bandit Defense - 142 x 141): Created by MPLogue with NPCMod conversion by arramus. 
-
+NPCMod_Bandit_Flying_Wallendas_by_MPLogue - Tier 4 Fetch (Wilderness Bandit Defense - 142 x 141): Created by MPLogue with NPCMod conversion by arramus.
+NPCMod_Arachnid_army_camp_02 - Tier 2 Fetch/Clear (Wilderness Arachnid Camp - 53 x 57): Created by TFP and converted by arramus.
+NPCMod_Arachnid_Cave_01 - Tier 3 Fetch/Clear (Wilderness Arachnid Cave - 69 x 59): Created by arramus.
 
 - PREFAB CONFIGURATION FOR PREFAB CREATORS:
 
