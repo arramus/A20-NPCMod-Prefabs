@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="AllowTopSoilDecorations" value="True" />
+  <property name="TraderArea" value="False" />
+  <property name="ExcludeDistantPOIMesh" value="False" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="QuestTags" value="fetch" />
+  <property name="DifficultyTier" value="5" />
+  <property name="Zoning" value="ResidentialOld, rural, Wilderness" />
+  <property name="RotationToFaceNorth" value="0" />
+  <property name="YOffset" value="-15" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="AllowedBiomes" value="burnt_forest,snow,pine_forest,desert,wasteland" />
+  <property name="AllowedTownships" value="wilderness" />
+  <property name="EditorGroups" value="Wilderness" />
+  <property name="SleeperVolumeStart" value="52, 37, 100#52, 32, 100#50, 29, 102#53, 18, 101#52, 37, 70#52, 33, 70#53, 27, 73#80, 37, 72#80, 33, 72#81, 29, 73#109, 37, 72#109, 33, 68#110, 29, 66#24, 36, 72#24, 32, 72#24, 29, 70#23, 25, 73#39, 36, 52#39, 33, 52#39, 29, 49#66, 36, 51#69, 33, 51#67, 29, 50" />
+  <property name="SleeperVolumeSize" value="12, 9, 12#12, 4, 12#14, 2, 10#11, 10, 11#13, 10, 14#13, 4, 14#10, 5, 10#12, 5, 12#12, 3, 12#13, 3, 9#12, 12, 12#13, 4, 16#11, 4, 17#11, 11, 12#11, 4, 12#11, 3, 14#12, 3, 11#11, 7, 11#11, 3, 11#11, 3, 13#11, 10, 11#8, 3, 11#10, 3, 11" />
+  <property name="SleeperVolumeGroup" value="S_-Group_NPC_Bandits_Ranged,5,6,S_-Group_NPC_Bandits_Ranged,5,6,S_-Group_NPC_Bandits_Ranged,4,5,S_-Group_NPC_Bandits_Ranged,2,3,S_-Group_NPC_Bandits_Ranged,7,8,S_-Group_NPC_Bandits_Ranged,5,6,S_-Group_NPC_Bandits_Ranged,5,6,S_-Group_NPC_Bandits_Ranged,5,6,S_-Group_NPC_Bandits_Ranged,4,5,S_-Group_NPC_Bandits_Ranged,4,5,S_-Group_NPC_Bandits_Ranged,4,5,S_-Group_NPC_Bandits_Ranged,5,6,S_-Group_NPC_Bandits_Ranged,9,10,S_-Group_NPC_Bandits_Ranged,6,7,S_-Group_NPC_Bandits_Ranged,4,5,S_-Group_NPC_Bandits_Ranged,6,7,S_-Group_NPC_Bandits_Ranged,6,7,S_-Group_NPC_Bandits_Ranged,4,5,S_-Group_NPC_Bandits_Ranged,5,6,S_-Group_NPC_Bandits_Ranged,5,6,S_-Group_NPC_Bandits_Ranged,6,7,S_-Group_NPC_Bandits_Ranged,5,6,S_-Group_NPC_Bandits_Ranged,6,7" />
+  <property name="SleeperVolumeGameStageAdjust" value=",,,,,,,,,,,,,,,,,,,,,," />
+  <property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False" />
+  <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False" />
+  <property name="SleeperVolumeFlags" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
+  <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
+  <property name="ShowQuestClearCount" value="0" />
+  <property name="POIMarkerSize" value="1, 1, 1" />
+  <property name="POIMarkerStart" value="52, 14, 148" />
+  <property name="POIMarkerGroup" value="new" />
+  <property name="POIMarkerTags" value="" />
+  <property name="POIMarkerType" value="None" />
+  <property name="POIMarkerPartToSpawn" value="" />
+  <property name="POIMarkerPartRotations" value="0" />
+  <property name="POIMarkerPartSpawnChance" value="1" />
+  <property name="PrefabSize" value="153, 59, 148" />
+  <property name="Tags" value="forest,snow,wasteland,desert,wilderness,rural" />
+  <property class="Stats">
+    <property name="TotalVertices" value="3127992" />
+    <property name="TotalTriangles" value="2788474" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="1662744" />
+      <property name="Triangles" value="1921791" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="358529" />
+      <property name="Triangles" value="217333" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="1013888" />
+      <property name="Triangles" value="506944" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="96" />
+      <property name="Triangles" value="80" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="13879" />
+      <property name="Triangles" value="11678" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="256" />
+      <property name="Triangles" value="128" />
+    </property>
+    <property class="ChunkMeshes6">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes7">
+      <property name="Vertices" value="77890" />
+      <property name="Triangles" value="129516" />
+    </property>
+    <property class="ChunkMeshes8">
+      <property name="Vertices" value="710" />
+      <property name="Triangles" value="1004" />
+    </property>
+    <property class="ChunkMeshes9">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+  </property>
+  <property class="IndexedBlockOffsets">
+    <property class="quest_stone">
+      <property name="0" value="135, 13, 48" />
+    </property>
+    <property class="quest_wood">
+      <property name="0" value="130, 13, 32" />
+    </property>
+    <property class="TraderOnOff">
+      <property name="0" value="120, 29, 77" />
+      <property name="1" value="120, 29, 78" />
+    </property>
+    <property class="FetchContainer">
+      <property name="0" value="115, 47, 79" />
+    </property>
+    <property class="quest_feather">
+      <property name="0" value="143, 9, 132" />
+    </property>
+    <property class="POILight">
+      <property name="0" value="112, 39, 75" />
+      <property name="1" value="117, 39, 75" />
+      <property name="2" value="113, 48, 76" />
+      <property name="3" value="116, 48, 76" />
+      <property name="4" value="119, 34, 77" />
+      <property name="5" value="116, 34, 78" />
+      <property name="6" value="119, 34, 78" />
+      <property name="7" value="113, 48, 79" />
+      <property name="8" value="116, 48, 79" />
+      <property name="9" value="112, 39, 80" />
+      <property name="10" value="117, 39, 80" />
+      <property name="11" value="121, 33, 80" />
+    </property>
+    <property class="Rally">
+      <property name="0" value="57, 16, 110" />
+    </property>
+  </property>
+</prefab>

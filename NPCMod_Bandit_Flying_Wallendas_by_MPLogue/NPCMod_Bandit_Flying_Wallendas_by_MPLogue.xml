@@ -30,11 +30,11 @@
   <property name="POIMarkerPartSpawnChance" value="1" />
   <property name="Tags" value="wilderness" />
   <property class="Stats">
-    <property name="TotalVertices" value="2256442" />
-    <property name="TotalTriangles" value="2492000" />
+    <property name="TotalVertices" value="2256322" />
+    <property name="TotalTriangles" value="2491940" />
     <property class="BlockEntities">
-      <property name="Vertices" value="1455990" />
-      <property name="Triangles" value="1876366" />
+      <property name="Vertices" value="1455870" />
+      <property name="Triangles" value="1876306" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="163038" />

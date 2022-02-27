@@ -50,14 +50,15 @@ The game's Prefabs folder is typically found here:
 For convenience, it is easier to manage NPCMod specific Prefabs within the 0-XNPCCore\Prefabs folder.
 For performance, it has been suggested that adding directly to the game's Prefabs folder increases rendering speed; especially on lower end machines.
 
-- CURRENT LIST OF PREFABS:
+- CURRENT LIST OF PREFABS IN ALPHABETICAL ORDER:
 
 (An image of each Prefab can be viewed in the jpg file)
 
-NPCMod_Bandit_Settlement_01 - Tier 5 Fetch/Clear (Wilderness Bandit Settlement - 100 x 100): Created by arramus with kind use of MPLogue's 'Dirigible' Prefab.
-NPCMod_Bandit_Flying_Wallendas_by_MPLogue - Tier 4 Fetch (Wilderness Bandit Defense - 142 x 141): Created by MPLogue with NPCMod conversion by arramus.
 NPCMod_Arachnid_army_camp_02 - Tier 2 Fetch/Clear (Wilderness Arachnid Camp - 53 x 57): Created by TFP and converted by arramus.
 NPCMod_Arachnid_Cave_01 - Tier 3 Fetch/Clear (Wilderness Arachnid Cave - 69 x 59): Created by arramus.
+NPCMod_Bandit_Flying_Wallendas_by_MPLogue - Tier 4 Fetch (Wilderness Bandit Defense - 142 x 141): Created by MPLogue with NPCMod conversion by arramus.
+NPCMod_Bandit_Settlement_01 - Tier 5 Fetch/Clear (Wilderness Bandit Settlement - 100 x 100): Created by arramus with kind use of MPLogue's 'Dirigible' Prefab.
+NPCMod_Bandits_Maunsell_Forts_by_MPLogue - Tier 5 Fetch (Wilderness Bandit Defense - 153 x 148): Created by MPLogue with NPCMod conversion by arramus. 
 
 - PREFAB CONFIGURATION FOR PREFAB CREATORS:
 
@@ -71,11 +72,12 @@ Considerations:-
 a) The NPCMod characters support enhanced AI and will be more aware of their surroundings.
 This can cause them to roam more than regular default characters.
 
-b) Setting the Sleeper Volume to Passive puts the NPCMod characters into Turret Guard state. This means they will typically remain stationery.
-The NPCMod characters can use all 6 Sleeper positions (not including crawler) and this can used to good effect.
+b) Adding a PathingCube very close to the Sleeper and typing Task=stay in its text box sets it to act like a Turret Guard. It will remain stationary.
+The NPCMod characters can use all 6 Sleeper positions (not including crawler) and this can used to good effect with a delayed sighting if they are hidden.
 Examples include, laying on stomach while in a bunker, laying on side while next to a defensive barrier such as a sandbag, and sitting at the top of a staircase.
 
-c) Entities in Passive Sleeper Volumes will not appear as 'dots' on the UI for 'Clear' quests. This allows them to be used as hidden 'turrets'.
+c) Entities in Passive Sleeper Volumes will not appear as 'dots' on the UI for 'Clear' quests. This allows them to be used as hidden hostiles.
+However, please be aware that this may frustrate players if they are hidden too well.
 
 d) While the 0-XNPCCore supports a variety of custom Sleeper groups, it is necessary for Addon creators to assign their characters to these groups.
 This is done in the entitygroups.xml with each Addon's Config folder.
