@@ -13,7 +13,7 @@
   <property name="Zoning" value="none" />
   <property name="YOffset" value="-1" />
   <property name="QuestTags" value="clear,fetch" />
-  <property name="Tags" value="downtown,tdowntowntile,wilderness" />
+  <property name="Tags" value="wilderness,downtown,tdowntowntile" />
   <property name="SleeperVolumeSize" value="60, 32, 12#60, 32, 12#52, 10, 36" />
   <property name="SleeperVolumeStart" value="0, 1, 0#0, 1, 48#4, 1, 12" />
   <property name="SleeperVolumeGroupId" value="0,0,0" />
@@ -22,11 +22,11 @@
   <property name="SleeperIsQuestExclude" value="False,False,False" />
   <property name="SleeperVolumeFlags" value="0,0,0" />
   <property class="Stats">
-    <property name="TotalVertices" value="676540" />
-    <property name="TotalTriangles" value="591011" />
+    <property name="TotalVertices" value="676124" />
+    <property name="TotalTriangles" value="590407" />
     <property class="BlockEntities">
-      <property name="Vertices" value="389166" />
-      <property name="Triangles" value="394555" />
+      <property name="Vertices" value="388750" />
+      <property name="Triangles" value="393951" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="275549" />
